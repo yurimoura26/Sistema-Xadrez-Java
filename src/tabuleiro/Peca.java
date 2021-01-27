@@ -4,7 +4,7 @@ public class Peca {
 	protected Position posicao;
 	private Tabuleiro tabuleiro;
 	
-	public Peca(Position posicao, Tabuleiro tabuleiro) {
+	public Peca( Tabuleiro tabuleiro) {
 		this.tabuleiro = tabuleiro;
 	}
 	
