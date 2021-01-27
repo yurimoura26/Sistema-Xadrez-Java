@@ -2,7 +2,7 @@ package application;
 
 import java.util.Scanner;
 
-import tabuleiro.Position;
+import tabuleiro.Tabuleiro;
 
 public class Program {
 
@@ -12,8 +12,7 @@ public class Program {
 		
 		
 		
-		Position p = new Position(3, 5);
-		System.out.println(p );
+		Tabuleiro b = new Tabuleiro(8, 8);
 		
 	ler.close();	
 	}
